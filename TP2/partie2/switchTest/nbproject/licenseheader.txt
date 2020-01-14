@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Here comes the text of my license
+${licensePrefix}Author: Muruo ${licensePrefix}
+<#if licenseLast??>
+${licenseLast}
+</#if>

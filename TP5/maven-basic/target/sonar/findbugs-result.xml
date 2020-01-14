@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1578343563000" analysisTimestamp="1578559978783" release="">
+  <Project>
+    <Jar>/Users/muruowang/Desktop/INFO2/MEDEV/TP5/maven-basic/target/classes/com/acme/basic/HelloWorld.class</Jar>
+    <AuxClasspathEntry>/Users/muruowang/Desktop/INFO2/MEDEV/TP5/maven-basic/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/muruowang/.m2/repository/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/muruowang/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/muruowang/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/muruowang/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/muruowang/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/muruowang/.m2/repository/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/muruowang/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/muruowang/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/muruowang/Desktop/INFO2/MEDEV/TP5/maven-basic/target/sonar/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/muruowang/Desktop/INFO2/MEDEV/TP5/maven-basic/target/sonar/findbugs/jsr305.jar</AuxClasspathEntry>
+    <WrkDir>/Users/muruowang/Desktop/INFO2/MEDEV/TP5/maven-basic/target/sonar</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 6 Jan 2020 21:46:03 +0100" total_classes="1" referenced_classes="12" total_bugs="0" total_size="9" num_packages="1" java_version="1.8.0_161" vm_version="25.161-b12" cpu_seconds="5.25" clock_seconds="1.72" peak_mbytes="315.02" alloc_mbytes="1820.50" gc_seconds="0.03">
+    <FileStats path="com/acme/basic/HelloWorld.java" bugCount="0" size="9"/>
+    <PackageStats package="com.acme.basic" total_bugs="0" total_types="1" total_size="9">
+      <ClassStats class="com.acme.basic.HelloWorld" sourceFile="HelloWorld.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="285" invocations="329" avgMicrosecondsPerInvocation="866" maxMicrosecondsPerInvocation="53913" standardDeviationMicrosecondsPerInvocation="3378"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="138" invocations="330" avgMicrosecondsPerInvocation="420" maxMicrosecondsPerInvocation="3628" standardDeviationMicrosecondsPerInvocation="398"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="45" invocations="12" avgMicrosecondsPerInvocation="3801" maxMicrosecondsPerInvocation="13992" standardDeviationMicrosecondsPerInvocation="4555"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="45" invocations="298" avgMicrosecondsPerInvocation="151" maxMicrosecondsPerInvocation="2192" standardDeviationMicrosecondsPerInvocation="271"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="41" invocations="3" avgMicrosecondsPerInvocation="13746" maxMicrosecondsPerInvocation="40774" standardDeviationMicrosecondsPerInvocation="19112"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="37" invocations="33" avgMicrosecondsPerInvocation="1150" maxMicrosecondsPerInvocation="22238" standardDeviationMicrosecondsPerInvocation="3898"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="35" invocations="61" avgMicrosecondsPerInvocation="579" maxMicrosecondsPerInvocation="4016" standardDeviationMicrosecondsPerInvocation="696"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="26" invocations="12" avgMicrosecondsPerInvocation="2207" maxMicrosecondsPerInvocation="10002" standardDeviationMicrosecondsPerInvocation="2795"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="23" invocations="12" avgMicrosecondsPerInvocation="1982" maxMicrosecondsPerInvocation="11768" standardDeviationMicrosecondsPerInvocation="3164"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="22" invocations="12" avgMicrosecondsPerInvocation="1839" maxMicrosecondsPerInvocation="11088" standardDeviationMicrosecondsPerInvocation="3213"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="18" invocations="12" avgMicrosecondsPerInvocation="1501" maxMicrosecondsPerInvocation="8072" standardDeviationMicrosecondsPerInvocation="2321"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

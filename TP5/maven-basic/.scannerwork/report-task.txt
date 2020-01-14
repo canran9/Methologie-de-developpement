@@ -1,0 +1,6 @@
+projectKey=monopoly-ei3:project
+serverUrl=http://localhost:9000
+serverVersion=8.1.0.31237
+dashboardUrl=http://localhost:9000/dashboard?id=monopoly-ei3%3Aproject
+ceTaskId=AW98plfXH-DBkCcRkvmO
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AW98plfXH-DBkCcRkvmO
